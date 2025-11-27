@@ -457,9 +457,10 @@
       align-items: center;
       justify-content: center;
       text-align: center;
-      padding: 30px;
+      padding: 20px;
       max-width: 700px;
       margin: 0 auto;
+      width: 100%;
     }
 
     .rules-screen.hidden {
@@ -467,14 +468,16 @@
     }
 
     .rules-container {
-      padding: 30px;
+      padding: 20px;
       border-radius: 16px;
       box-shadow: 0 8px 32px rgba(0,0,0,0.3);
       margin-top: 20px;
+      width: 100%;
+      max-width: 100%;
     }
 
     .rules-title {
-      font-size: 36px;
+      font-size: 28px;
       margin: 0 0 20px 0;
       font-weight: bold;
     }
@@ -482,28 +485,60 @@
     .rules-content {
       text-align: left;
       margin: 20px 0;
-      line-height: 1.8;
+      line-height: 1.6;
     }
 
     .rules-section {
       margin: 15px 0;
-      font-size: 18px;
+      font-size: 16px;
     }
 
     .rules-section strong {
       font-weight: bold;
       display: block;
       margin-bottom: 8px;
-      font-size: 20px;
+      font-size: 18px;
     }
 
     .rules-highlight {
       font-weight: bold;
-      font-size: 17px;
-      padding: 15px;
+      font-size: 15px;
+      padding: 12px;
       border-radius: 8px;
       margin: 20px 0;
       border-left: 4px solid;
+      line-height: 1.5;
+    }
+
+    @media (min-width: 768px) {
+      .rules-screen {
+        padding: 30px;
+      }
+
+      .rules-container {
+        padding: 30px;
+      }
+
+      .rules-title {
+        font-size: 36px;
+      }
+
+      .rules-content {
+        line-height: 1.8;
+      }
+
+      .rules-section {
+        font-size: 18px;
+      }
+
+      .rules-section strong {
+        font-size: 20px;
+      }
+
+      .rules-highlight {
+        font-size: 17px;
+        padding: 15px;
+      }
     }
 
     .accept-button {
@@ -1033,5 +1068,5 @@
 
     onConfigChange(defaultConfig);
   </script>
- <script>(function(){function c(){var b=a.contentDocument||a.contentWindow.document;if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'9a505d2346fc3cbd',t:'MTc2NDIzMzI3OC4wMDAwMDA='};var a=document.createElement('script');a.nonce='';a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script></body>
+ <script>(function(){function c(){var b=a.contentDocument||a.contentWindow.document;if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'9a50685c92053cbd',t:'MTc2NDIzMzczNy4wMDAwMDA='};var a=document.createElement('script');a.nonce='';a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script></body>
 </html>
